@@ -1,0 +1,64 @@
+.item-persons
+  display: flex
+  &__img
+    width: 100%
+    height: auto
+    position: relative
+  &__icon
+    width: 100%
+    height: 100%
+  &__item
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    opacity: 0
+    overflow: hidden
+    &:hover
+      opacity: 1
+      background-color: #fe504f
+  &__content
+    width: 100%
+    height: 100%
+    box-sizing: border-box
+    padding: 10%
+    display: flex
+    flex-wrap: wrap
+    align-content: space-between
+    &-title
+      color: #ffffff
+      font-family: $font-family__first
+      font-size: 32px
+      font-weight: 700
+      line-height: 40px
+    &-subtitle
+      display: flex
+      flex-direction: column
+      color: #ffffff
+      font-family: $font-family__first
+      font-size: 12px
+      font-weight: 700
+      line-height: 24px
+      text-transform: capitalize
+      &:before
+        content: ""
+        width: 100%
+        height: 1px
+        background-color: #bb3030
+    &-text
+      padding-top: 10px
+      color: #ffffff
+      font-family: $font-family__first
+      font-size: 12px
+      font-weight: 400
+      line-height: 24px
+      text-transform: capitalize
+
+
+
+
+

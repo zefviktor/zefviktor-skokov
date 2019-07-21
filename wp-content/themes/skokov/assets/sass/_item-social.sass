@@ -1,0 +1,19 @@
+.item-social
+  display: flex
+  align-items: center
+  &__icon
+    display: flex
+    &:nth-child(2),&:nth-child(3),&:nth-child(4)
+      padding-left: 10px
+      &:before
+        content: ""
+        padding-left: 10px
+        border-left: 1px solid #fe504f
+  &__text
+    color: #fe504f
+    font-family: $font-family__first
+    font-size: 20px
+    font-weight: 400
+    &:hover
+      color: #fe8e8a
+

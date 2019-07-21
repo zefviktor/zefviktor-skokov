@@ -1,0 +1,52 @@
+.contact
+  padding: 5% 0
+  width: 100%
+  &-one
+    width: 100%
+    box-sizing: border-box
+    @media (max-width: 992px)
+      padding-right: 5%
+    &__logo
+      padding-bottom: 3%
+    &__item
+      padding: 2% 0
+      display: flex
+      align-items: center
+      &-icon
+        width: 30px
+        height: 30px
+        display: flex
+        align-items: center
+        justify-content: center
+        color: #fe504f
+        font-family: $font-family__first
+        font-size: 12px
+        font-weight: 700
+        line-height: 20px
+        border: 1px solid #fe504f
+      &-text
+        display: flex
+        margin-bottom: 0
+        padding-left: 2%
+        color: #ffffff
+        font-family: $font-family__first
+        font-size: 12px
+        font-weight: 700
+        line-height: 20px
+        text-transform: uppercase
+        &:hover
+          color: #ff6452
+    &__after-text
+      display: flex
+      flex-direction: column
+      padding-bottom: 5%
+      &:after
+        content: ''
+        width: 50px
+        height: 15px
+        border-bottom: 3px solid #fe504f
+  &-two
+    width: 100%
+    box-sizing: border-box
+    @media (min-width: 992px)
+      padding-left: 5%
